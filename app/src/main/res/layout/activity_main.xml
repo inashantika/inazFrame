@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@color/design_default_color_secondary"
+        android:layout_gravity="center"/>
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:background="#9D5CA8"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="INA SHANTIKA IZZA"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="250dp"
+        android:background="#9D5CA8"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="250dp"
+        android:background="#9D5CA8"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dp"/>
+
+</FrameLayout>
